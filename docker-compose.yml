@@ -1,0 +1,8 @@
+version: '3.7'
+services:
+ myapp1:
+  build: .
+  image: ajthakureywebapp:v1
+  container_name: appeyc5
+  ports:
+   - "8855:80"
